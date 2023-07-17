@@ -18,7 +18,7 @@
   width: 2rem;
 }
 
-ul {
+.general {
   font-size: 12px;
   display: flex;
   align-items: center;
@@ -30,12 +30,47 @@ ul {
   list-style-type: none;
 }
 
-ul > li:hover {
+.general > li:hover {
   color: #04a6c2;
 }
 
+.menu {
+  display: none;
+}
+
+.hello {
+  display: none;
+}
+
 @media only screen and (max-width: 578px) {
-  ul {
+  .general {
     display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .hello {
+    background-color: #fffafa;
+    padding: 1rem;
+    border-radius: 6px;
+  }
+
+  .toggle {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 12px;
+    padding: 0 10px 0 10px;
+    margin: 10px;
+    font-weight: bold;
+    color: #9ca69e;
+    list-style-type: none;
+  }
+  .toggle > li:hover {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 10px;
   }
 }
