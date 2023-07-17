@@ -1,0 +1,23 @@
+.stats-container {
+  border: 1px solid #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.stats-container div {
+  text-align: center;
+}
+
+.numbers {
+  color: #04a6c2;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.stat-text {
+  font-size: 14px;
+  color: #97999d;
+}
