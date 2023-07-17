@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="content">
       <Navbar></Navbar>
-      <Hero></Hero>
+      <Hero style={{ position: "relative" }}></Hero>
       <Stats></Stats>
     </div>
   );

@@ -1,7 +1,6 @@
 .stats-container {
   border: 1px solid #ffffff;
   padding: 20px;
-  border-radius: 5px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;

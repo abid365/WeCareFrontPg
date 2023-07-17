@@ -4,8 +4,12 @@ const Stats = () => {
   return (
     <div
       style={{
-        width: "80%",
-        float: "right",
+        width: "60%",
+        position: "absolute",
+        top: "95%",
+        left: "40%",
+        backgroundColor: "#ffffff",
+        borderRadius: "12px",
       }}
     >
       <div className="stats-container">
