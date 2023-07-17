@@ -1,0 +1,43 @@
+.h-text {
+  font-size: 3rem;
+  color: #2b2d42;
+}
+.parent-div {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+#doc-fig {
+  place-self: end;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+h1 {
+  font-size: 14px;
+}
+
+.class-desription {
+  font-size: 10px;
+  color: #aab0b2;
+  line-height: 2;
+}
+
+.group-desc {
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+}
+
+.logo {
+  display: inline;
+  color: #04a6c2;
+  padding-top: 4px;
+  height: 2rem;
+  width: 2rem;
+}
