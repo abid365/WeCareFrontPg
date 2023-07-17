@@ -2,17 +2,8 @@ import React from "react";
 import "./Stats.css";
 const Stats = () => {
   return (
-    <div
-      style={{
-        width: "60%",
-        position: "absolute",
-        top: "95%",
-        left: "40%",
-        backgroundColor: "#ffffff",
-        borderRadius: "12px",
-      }}
-    >
-      <div className="stats-container">
+    <div>
+      <div className="container">
         <div>
           <h1 className="numbers">250</h1>
           <p className="stat-text">Best Doctor</p>

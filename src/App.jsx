@@ -7,8 +7,12 @@ function App() {
   return (
     <div className="content">
       <Navbar></Navbar>
-      <Hero style={{ position: "relative" }}></Hero>
-      <Stats></Stats>
+      <div className="hero">
+        <Hero></Hero>
+      </div>
+      <div className="stats">
+        <Stats></Stats>
+      </div>
     </div>
   );
 }

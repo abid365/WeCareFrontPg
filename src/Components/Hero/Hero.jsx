@@ -9,9 +9,9 @@ const Hero = () => {
     <div className="parent-div" style={{ marginTop: "1rem" }}>
       <div>
         <h1 className="h-text">
-          Protect Your Health<br></br> And Take Care Your of<br></br> Your
-          Health
+          Protect Your Health<br></br> And Take Care of<br></br> Your Health
         </h1>
+
         {/* sub-parent*/}
         <div className="grid-container">
           {/* 1st */}
